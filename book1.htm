@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Document</title>
+
+    <style type="text/css">
+        section div{
+            padding: 15px;
+        }
+
+        .book details summary{
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        
+        @media (max-width: 576px) {
+            .card{
+                width: 60%;
+            }
+            h3{
+                font-size: 10px;
+
+            }
+
+            .book details summary{
+                margin: 15px;
+                font-size: 10px;
+                font-weight: 400;
+            }
+            .feedback{
+                font-size: 10px;
+
+            }
+
+        }
+
+        @media (min-width: 576px) {
+            .card{
+                width: 30%;
+
+            }
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        body {
+            background: linear-gradient(-45deg, #cebaba, #ffc6a2, #f5e1c8, #8b5e3c);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
+            
+        }
+
+
+
+        
+
+    </style>
+</head>
+<body class="">
+    
+    <header class="head-main  text-light text-center p-3 bg-secondary" style="background-color: #ac6252d4;">
+        <h2>Book Showcase : Book 1 Details</h2>
+    </header>
+
+    <nav class="bg-dark d-flex justify-content-end">
+        <div class=" p-2"><a href="index.htm" class="home"><button class="btn btn-warning">Home</button></a></div>
+    </nav>
+
+
+    <main class="">
+
+        <section class=" m-lg-5 d-flex justify-content-center align-items-center">
+
+            <div class="book border border-5  w-75 bg-light rounded-4 p-lg-5 ">
+
+                <h3>Book 1 : Exploring Technology</h3>
+    
+                <div class="card ">
+                    <img src="public/images/manufacturing-eng1.1.jpg" alt="Image not found" class="card-img">
+                </div>
+    
+                <details>
+                    <summary>Genere</summary>
+                    <p>
+                        <ul>
+                            <li>Technology</li>
+                            <li>Education</li>
+                        </ul>
+                    </p>
+                </details>
+                <details>
+                    <summary>Index Page</summary>
+                    <p>
+                        <ul>
+                            <li>Introduction</li>
+                            <li>Chapter 1 : Overview</li>
+                            <li>Chapter 2 : Advanced Concepts</li>
+                        </ul>
+                    </p>
+                </details>
+                <details>
+                    <summary>Authors</summary>
+                    <p>
+                        <ul>
+                            <li>Jane Doe</li>
+                            <li>John Smith</li>
+                        </ul>
+                    </p>
+                </details>
+                <details>
+                    <summary>Overview</summary>
+                    <p>
+                        <ul>
+                            <li>This book provides detailed insights into technology and communication skills for professionals and students </li>
+                        </ul>
+                    </p>
+                </details>
+                <details>
+                    <summary>Competitive Exam Reievance</summary>
+                    <p>
+                        <ul>
+                            <li>Highly recommended for IT and communication skills for professionals and students.</li>
+                            
+                        </ul>
+                    </p>
+                </details>
+                <details>
+                    <summary>Purchase Links</summary>
+                    <p>
+                        <ul>
+                            <li><a href="https://www.amazon.in/Manufacturing-Engineering-Technology-4th-ed/dp/B00BG6PGSI/ref=sr_1_3?crid=WYWP7DYKHVHF&dib=eyJ2IjoiMSJ9.GJu3m7oMesgbXa8V7xynVFWdfHnHfSgUcwrjxppARbMpuCXAka_OShTpZIrFNfJMXVQzl6_ypx5hRpAwdQHmfjPiqRWy12JJJ8TcnahWEVKbjfs2Nuu52oTpesDZfL_VyaT7sOAkfk_H7EDcep3N1v2tkIbV5iFTkNYTWKoRoCoZn6Zf3HWod0HFKH2LHZG0MeYPadFfpG5Ml5qPniMLmpVqubQ4gCvPisP9z59hHHs4Y40ZZitgUhqNcc8mo9RZCY2weh3d7wxIHtbNfdHslg.Vr1cvZ4bjT1mD3k86h81tCJYKRa6KPHFn1XQNuH90r8&dib_tag=se&keywords=manufacturing+and+engineering+and+technology+book&psr=EY17&qid=1742373940&s=todays-deals&sprefix=manufacturing+and+enginnerring+ad+technology+book%2Ctodays-deals%2C236&sr=1-3-catcorr">Amazon</a></li>
+                            <li><a href="https://www.flipkart.com/search?q=Manufacturing%20Engineering%20and%20Technology%204th%20ed%20Paperback&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off">Flipkart</a></li>
+                        </ul>
+                    </p>
+                </details>
+    
+    
+                <button class="feedback btn btn-warning m-3" data-bs-target="#login" data-bs-toggle="modal"> Feedback </button>
+      
+                <div class="modal fade " id="login">
+    
+                    <div class="modal-dialog modal-dialog-centered ">
+                        <div class="modal-content bg-warning">
+                            <div class="modal-header bg-warning-subtle">
+                                <span class="bi bi-layout-text-sidebar-reverse fw-bold fs-3"> Feedback</span>
+                                <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body bg-warning-subtle">
+                                <dl>
+                                    <dt>Name :</dt><br>
+                                    <dd>
+                                        <input type="text" name="username" class="form-control">
+                                    </dd>
+                                    <dt>Feedback :</dt>
+                                    <div class="form-floating ">
+                                        <textarea class="form-control p-3" placeholder="Leave a comment here" id="floatingTextarea" ></textarea>
+                                        <label for="floatingTextarea">Leave a comment here</label>
+                                      </div>
+                                </dl>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" data-bs-dismiss="modal"> Submit </button>
+                                <button class="btn btn-danger" data-bs-dismiss="modal"> Cancel </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>    
+            
+
+        </section>
+
+
+    </main>
+
+
+
+
+
+    <footer class=" bg-dark p-1">
+        <p class="footer-text text-light text-center pt-2"><span class="bi bi-c-circle"> 2025 Book Showcase | All rights reserved</span></p>
+    </footer>
+
+
+</body>
+</html>

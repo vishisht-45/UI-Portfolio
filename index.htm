@@ -56,6 +56,19 @@
             
         }
 
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        body {
+            background: linear-gradient(-45deg, #cebaba, #ffc6a2, #f5e1c8, #8b5e3c);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
+            
+        }
+
 
 
 
@@ -90,7 +103,7 @@
                     </div>
                     <!-- Back Side -->
                     <div class="card-back">
-                        <p>Click for Details</p>
+                        <a href="book1.htm" style="text-decoration: none;"><p>Click for Details</p></a>
                     </div>
                 </div> 
             </div>
