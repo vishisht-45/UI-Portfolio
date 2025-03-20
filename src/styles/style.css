@@ -71,7 +71,7 @@
   
   
   
-  @media (min-width: 760px) { 
+  @media (min-width: 600px) { 
     .bokSection{
         display: flex;
         flex-direction: row;
@@ -103,7 +103,7 @@
   }
   
   
-  @media (min-width: 761px) { 
+  @media (min-width: 800px) { 
     .bokSection{
         display: flex;
         flex-direction: row;
